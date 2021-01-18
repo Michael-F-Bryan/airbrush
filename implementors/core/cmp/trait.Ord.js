@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["airbrush"] = [{"text":"impl Ord for WorldSpace","synthetic":false,"types":[]},{"text":"impl Ord for CanvasSpace","synthetic":false,"types":[]}];
+implementors["byteorder"] = [{"text":"impl Ord for BigEndian","synthetic":false,"types":[]},{"text":"impl Ord for LittleEndian","synthetic":false,"types":[]}];
+implementors["crossbeam_epoch"] = [{"text":"impl&lt;T:&nbsp;?Sized + Pointable&gt; Ord for Shared&lt;'_, T&gt;","synthetic":false,"types":[]}];
+implementors["deflate"] = [{"text":"impl Ord for Compression","synthetic":false,"types":[]},{"text":"impl Ord for MatchingType","synthetic":false,"types":[]}];
+implementors["either"] = [{"text":"impl&lt;L:&nbsp;Ord, R:&nbsp;Ord&gt; Ord for Either&lt;L, R&gt;","synthetic":false,"types":[]}];
+implementors["euclid"] = [{"text":"impl&lt;T:&nbsp;Ord, U&gt; Ord for Length&lt;T, U&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Ord, Src, Dst&gt; Ord for Scale&lt;T, Src, Dst&gt;","synthetic":false,"types":[]},{"text":"impl Ord for UnknownUnit","synthetic":false,"types":[]}];
+implementors["num_rational"] = [{"text":"impl&lt;T:&nbsp;Clone + Integer&gt; Ord for Ratio&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["png"] = [{"text":"impl Ord for Transformations","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

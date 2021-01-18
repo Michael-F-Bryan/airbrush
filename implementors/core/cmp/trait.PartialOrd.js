@@ -1,0 +1,11 @@
+(function() {var implementors = {};
+implementors["airbrush"] = [{"text":"impl PartialOrd&lt;WorldSpace&gt; for WorldSpace","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;CanvasSpace&gt; for CanvasSpace","synthetic":false,"types":[]}];
+implementors["byteorder"] = [{"text":"impl PartialOrd&lt;BigEndian&gt; for BigEndian","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;LittleEndian&gt; for LittleEndian","synthetic":false,"types":[]}];
+implementors["crossbeam_epoch"] = [{"text":"impl&lt;'g, T:&nbsp;?Sized + Pointable&gt; PartialOrd&lt;Shared&lt;'g, T&gt;&gt; for Shared&lt;'g, T&gt;","synthetic":false,"types":[]}];
+implementors["deflate"] = [{"text":"impl PartialOrd&lt;Compression&gt; for Compression","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;MatchingType&gt; for MatchingType","synthetic":false,"types":[]}];
+implementors["either"] = [{"text":"impl&lt;L:&nbsp;PartialOrd, R:&nbsp;PartialOrd&gt; PartialOrd&lt;Either&lt;L, R&gt;&gt; for Either&lt;L, R&gt;","synthetic":false,"types":[]}];
+implementors["euclid"] = [{"text":"impl&lt;T:&nbsp;PartialOrd&gt; PartialOrd&lt;Angle&lt;T&gt;&gt; for Angle&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;PartialOrd, U&gt; PartialOrd&lt;Length&lt;T, U&gt;&gt; for Length&lt;T, U&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;PartialOrd, Src, Dst&gt; PartialOrd&lt;Scale&lt;T, Src, Dst&gt;&gt; for Scale&lt;T, Src, Dst&gt;","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;UnknownUnit&gt; for UnknownUnit","synthetic":false,"types":[]}];
+implementors["image"] = [{"text":"impl PartialOrd&lt;NormalForm&gt; for NormalForm","synthetic":false,"types":[]},{"text":"impl PartialOrd&lt;Delay&gt; for Delay","synthetic":false,"types":[]}];
+implementors["num_rational"] = [{"text":"impl&lt;T:&nbsp;Clone + Integer&gt; PartialOrd&lt;Ratio&lt;T&gt;&gt; for Ratio&lt;T&gt;","synthetic":false,"types":[]}];
+implementors["png"] = [{"text":"impl PartialOrd&lt;Transformations&gt; for Transformations","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

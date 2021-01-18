@@ -1,0 +1,10 @@
+(function() {var implementors = {};
+implementors["crossbeam_channel"] = [{"text":"impl&lt;T:&nbsp;Send&gt; Error for SendError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Send&gt; Error for TrySendError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl&lt;T:&nbsp;Send&gt; Error for SendTimeoutError&lt;T&gt;","synthetic":false,"types":[]},{"text":"impl Error for RecvError","synthetic":false,"types":[]},{"text":"impl Error for TryRecvError","synthetic":false,"types":[]},{"text":"impl Error for RecvTimeoutError","synthetic":false,"types":[]},{"text":"impl Error for TrySelectError","synthetic":false,"types":[]},{"text":"impl Error for SelectTimeoutError","synthetic":false,"types":[]}];
+implementors["gif"] = [{"text":"impl Error for DecodingFormatError","synthetic":false,"types":[]},{"text":"impl Error for DecodingError","synthetic":false,"types":[]},{"text":"impl Error for EncodingError","synthetic":false,"types":[]}];
+implementors["image"] = [{"text":"impl Error for ImageError","synthetic":false,"types":[]},{"text":"impl Error for UnsupportedError","synthetic":false,"types":[]},{"text":"impl Error for ParameterError","synthetic":false,"types":[]},{"text":"impl Error for EncodingError","synthetic":false,"types":[]},{"text":"impl Error for DecodingError","synthetic":false,"types":[]},{"text":"impl Error for LimitError","synthetic":false,"types":[]},{"text":"impl Error for Error","synthetic":false,"types":[]}];
+implementors["jpeg_decoder"] = [{"text":"impl Error for Error","synthetic":false,"types":[]}];
+implementors["png"] = [{"text":"impl Error for DecodingError","synthetic":false,"types":[]},{"text":"impl Error for EncodingError","synthetic":false,"types":[]}];
+implementors["rayon_core"] = [{"text":"impl Error for ThreadPoolBuildError","synthetic":false,"types":[]}];
+implementors["tiff"] = [{"text":"impl Error for TiffError","synthetic":false,"types":[]}];
+implementors["weezl"] = [{"text":"impl Error for LzwError","synthetic":false,"types":[]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
