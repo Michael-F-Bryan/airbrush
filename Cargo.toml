@@ -4,3 +4,10 @@ version = "0.1.0"
 authors = ["Michael-F-Bryan <michaelfbryan@gmail.com>"]
 license = "MIT OR Apache-2.0"
 edition = "2018"
+
+[dependencies]
+euclid = "0.22.1"
+image = { version = "0.23.12", default-features = false }
+
+[dev-dependencies]
+image = { version = "0.23.12", features = ["png"] }
